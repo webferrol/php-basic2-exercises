@@ -82,11 +82,11 @@
               color: black;
             }
 
-            :has(> tool-tip) {
+            :has(> tool-tip) tool-tip {
               position: relative;
             }
 
-            :has(> tool-tip):hover {
+            :has(> tool-tip):hover tool-tip {
               opacity: 1;
             }
           </style>
