@@ -1,10 +1,10 @@
 <?php
-declare(strict_types = 1);
+declare(strict_types = 1); // con esto podemos tipar los datos en los parámetros de funciones y clases
 
 //crea una función que cada vez que la llamemos realice un salto de línea en html
 
 /**
- * Función que realiza un salto de línea
+ * Ejemplo de una función que realiza un salto de línea
  */
 function saltoLinea (string $etiqueta = "<br>") : string {
 	return $etiqueta;
@@ -16,21 +16,10 @@ function saltoLinea (string $etiqueta = "<br>") : string {
 
 
 <?php
-
-
-
 //crea una función que muestre por pantalla un mensaje personaliado como parámetro
 
 
 
-function alert (mixed $mensaje) : void {
-	if (gettype($mensaje) === 'array') 
-		echo join(',', $mensaje);	
-	else 
-		echo $mensaje;
-}
-
-alert();	
 
 
 
