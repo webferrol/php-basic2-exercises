@@ -1,18 +1,10 @@
 <?php
 declare(strict_types = 1); // con esto podemos tipar los datos en los parámetros de funciones y clases
 
-//crea una función que cada vez que la llamemos realice un salto de línea en html
-
-/**
- * Ejemplo de una función que realiza un salto de línea
- */
-function saltoLinea (string $etiqueta = "<br>") : string {
-	return $etiqueta;
-}
-
+//crea una función llamada saltoLinea que cada vez que la llamemos realice un salto de línea en html
 ?>
 
-<span>Hola</span> <?php echo saltoLinea('<hr>')?> Mundo cruel
+
 
 
 <?php
